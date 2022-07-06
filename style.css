@@ -3,7 +3,17 @@ body {
     margin-top: -50px;
 }
 
-h1 {
+.top-banner-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100ps;
+    text-align: center;
+    color: white;
+}
+
+.section-heading {
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     padding-top: 80px;
@@ -13,13 +23,13 @@ h1 {
 }
 
 h4 {
-    padding-left: 200px;
-    padding-right: 200px;
-    color: blue;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: lightcoral;
 }
 
 .top-banner {
-    background-image: url(images/donation1.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
@@ -118,6 +128,57 @@ input {
     margin-right: 1%;
     padding: 15px;
     border-radius: 5px;
+}
+
+.help-boxes {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.questionnarie-img {
+    background-image: url(images/questionaries.PNG);
+    background-repeat: no-repeat;
+    background-position-x: top;
+    box-shadow: 10px 10px 40px grey;
+    margin: 5px;
+    padding-top: 150px;
+}
+
+.advisor-img {
+    background-image: url(images/talkProfessor.PNG);
+    background-repeat: no-repeat;
+    background-position-x: top;
+    box-shadow: 10px 10px 40px grey;
+    margin: 5px;
+    padding-top: 150px;
+}
+
+.book-download-img {
+    background-image: url(images/downloadBook.PNG);
+    background-repeat: no-repeat;
+    background-position-x: top;
+    box-shadow: 10px 10px 40px grey;
+    margin: 5px;
+    padding-top: 150px;
+}
+
+.calculator-img {
+    background-image: url(images/CalculateAmount.PNG);
+    background-repeat: no-repeat;
+    background-position-x: top;
+    box-shadow: 10px 10px 40px grey;
+    margin: 5px;
+    padding-top: 150px;
+}
+
+
+
+.achor-tag {
+    text-decoration: none;
+    color: tomato;
+
 }
 
 .email-subscribe {
